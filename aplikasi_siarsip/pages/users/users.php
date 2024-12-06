@@ -52,7 +52,7 @@ include __DIR__."/../../inc/sidebar.php";
                                 <td><img src="<?php echo BASE_URL;?>/assets/img/admin.avif" alt="foto" width="100px"></td>
                                 <td>Aktif</td>
                                 <td>
-                                    <a href="<?php echo BASE_URL;?>/view/users/users_edit.php" class="btn btn-secondary"><i class="fas fa-edit"></i></a>
+                                    <a href="<?php echo BASE_URL;?>/pages/users/users_edit.php" class="btn btn-secondary"><i class="fas fa-edit"></i></a>
                                     &nbsp;
                                     <a href="#" class="btn btn-danger" onclick="return confirm('Apakah Anda Yakin ingin Menghapus data ini??')"><i class="fas fa-trash"></i></a>
                                 </td>

@@ -16,7 +16,7 @@ include __DIR__ . "/../inc/sidebar.php";
                     <span class="ml-auto mr-0 h3">1</span>
                     </div>
                     <div class="card-footer d-flex align-items-center justify-content-between">
-                        <a class="small text-white stretched-link" href="<?php echo BASE_URL;?>/view/arsip/arsip.php">View Details</a>
+                        <a class="small text-white stretched-link" href="<?php echo BASE_URL;?>/pages/arsip/arsip.php">View Details</a>
                         <div class="small text-white"><i class="fas fa-angle-right"></i></div>
                     </div>
                 </div>
@@ -28,7 +28,7 @@ include __DIR__ . "/../inc/sidebar.php";
                     <span class="ml-auto mr-0 h3">1</span>
                     </div>
                     <div class="card-footer d-flex align-items-center justify-content-between">
-                        <a class="small text-white stretched-link" href="<?php echo BASE_URL;?>/view/kategori/kategori.php">View Details</a>
+                        <a class="small text-white stretched-link" href="<?php echo BASE_URL;?>/pages/kategori/kategori.php">View Details</a>
                         <div class="small text-white"><i class="fas fa-angle-right"></i></div>
                     </div>
                 </div>
@@ -40,7 +40,7 @@ include __DIR__ . "/../inc/sidebar.php";
                     <span class="ml-auto mr-0 h3">1</span>
                     </div>
                     <div class="card-footer d-flex align-items-center justify-content-between">
-                        <a class="small text-white stretched-link" href="<?php echo BASE_URL;?>/view/users/users.php">View Details</a>
+                        <a class="small text-white stretched-link" href="<?php echo BASE_URL;?>/pages/users/users.php">View Details</a>
                         <div class="small text-white"><i class="fas fa-angle-right"></i></div>
                     </div>
                 </div>

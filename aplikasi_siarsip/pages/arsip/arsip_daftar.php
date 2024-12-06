@@ -11,7 +11,7 @@ include __DIR__."/../../inc/sidebar.php";
         </ol>
         <div class="card mb-4">
             <div class="card-header">
-              <a href="<?php echo BASE_URL;?>/view/arsip/arsip.php" class="btn btn-primary"> <i class="fas fa-arrow-left"></i> &nbsp; Kembali</a>
+              <a href="<?php echo BASE_URL;?>/pages/arsip/arsip.php" class="btn btn-primary"> <i class="fas fa-arrow-left"></i> &nbsp; Kembali</a>
             </div>
             <div class="card-body">
                <div class="row">
