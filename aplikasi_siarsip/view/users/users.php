@@ -11,8 +11,8 @@ include __DIR__."/../../inc/sidebar.php";
         </ol>
         <div class="card mb-4">
             <div class="card-header">
-                <i class="fas fa-table mr-1"></i>
-                User
+                <i class="fas fa-user mr-1"></i>
+                Daftar User
                 <a href="users_tambah.php" class="btn btn-primary float-right"><i class="fas fa-plus mr-2"></i>Tambah User</a>
             </div>
             <div class="card-body">
@@ -25,8 +25,9 @@ include __DIR__."/../../inc/sidebar.php";
                                 <th>Nama</th>
                                 <th>Email</th>
                                 <th>Phone</th>
-                                <th>Active</th>
-                                <th>Action</th>
+                                <th>Foto</th>
+                                <th>aktif</th>
+                                <th>Aksi</th>
                             </tr>
                         </thead>
                         <tfoot>
@@ -36,8 +37,9 @@ include __DIR__."/../../inc/sidebar.php";
                                 <th>Nama</th>
                                 <th>Email</th>
                                 <th>Phone</th>
-                                <th>Active</th>
-                                <th>Action</th>
+                                <th>Foto</th>
+                                <th>aktif</th>
+                                <th>Aksi</th>
                             </tr>
                         </tfoot>
                         <tbody>
@@ -47,9 +49,10 @@ include __DIR__."/../../inc/sidebar.php";
                                 <td>nixon</td>
                                 <td>nixon@gmail.com</td>
                                 <td>089123</td>
-                                <td>active</td>
+                                <td><img src="<?php echo BASE_URL;?>/assets/img/admin.avif" alt="foto" width="100px"></td>
+                                <td>Aktif</td>
                                 <td>
-                                    <a href="users_edit.php" class="btn btn-secondary"><i class="fas fa-edit"></i></a>
+                                    <a href="<?php echo BASE_URL;?>/view/users/users_edit.php" class="btn btn-secondary"><i class="fas fa-edit"></i></a>
                                     &nbsp;
                                     <a href="#" class="btn btn-danger" onclick="return confirm('Apakah Anda Yakin ingin Menghapus data ini??')"><i class="fas fa-trash"></i></a>
                                 </td>

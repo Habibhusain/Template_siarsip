@@ -14,7 +14,7 @@ include __DIR__."/../../inc/sidebar.php";
                 <form action="" method="post">
                       <!-- INPUT Text-->
                       <div class="form-group">
-                        <label for="exampleInputKodeArsip1">KodeArsip</label>
+                        <label for="exampleInputKodeArsip1">Kode Arsip</label>
                           <input type="text" class="form-control" name="" id="exampleInputKodeArsip1" aria-describedby="kodeArsipHelp" autofocus required>
                       </div>
                       
@@ -43,7 +43,7 @@ include __DIR__."/../../inc/sidebar.php";
 
                        <!-- INPUT File-->
                        <div class="form-group">
-                          <label for="file">File</label>
+                          <label for="file">File Arsip</label>
                         <div class="input-group mb-3">
                             <div class="custom-file">
                               <input type="file" class="custom-file-input" name="" id="inputGroupFile01" aria-describedby="inputGroupFileAddon01">
@@ -54,7 +54,7 @@ include __DIR__."/../../inc/sidebar.php";
 
                         <div class="card-footer">
                           <button type="submit" class="btn btn-info">Submit</button>
-                          <a href="arsip.php" class="btn btn-dark float-right">Cancel</a>
+                          <a href="arsip.php" class="btn btn-link float-right"><i class="fas fa-arrow-left"></i>Kembali</a>
                         </div>
                   </form>
             </div>

@@ -61,7 +61,7 @@ include __DIR__."/../../inc/sidebar.php";
 
                         <div class="card-footer">
                             <button type="submit" class="btn btn-info">Submit</button>
-                            <a href="users.php" class="btn btn-dark float-right">Cancel</a>
+                            <a href="users.php" class="btn btn-link float-right"><i class="fas fa-arrow-left"></i>Kembali</a>
                           </div>
                   </form>
             </div>

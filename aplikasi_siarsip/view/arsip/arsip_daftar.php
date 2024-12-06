@@ -15,7 +15,7 @@ include __DIR__."/../../inc/sidebar.php";
             </div>
             <div class="card-body">
                <div class="row">
-                <div class="col-md-6">
+                <div class="col-md-5">
                     <table class="table">
                         <tbody>
                             <tr>
@@ -49,7 +49,7 @@ include __DIR__."/../../inc/sidebar.php";
                         </tbody>
                     </table>
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-7">
                     <iframe src="<?php echo BASE_URL;?>assets/file/46722-118211-1-PB.pdf" width="100%" height="500px"></iframe>
                 </div>
                </div>

@@ -43,13 +43,9 @@
                                                 <label class="small mb-1" for="inputEmailAddress">Email</label>
                                                 <input class="form-control py-4" id="inputEmailAddress" name="" type="email" aria-describedby="emailHelp" placeholder="Enter email address" />
                                             </div>
-                                            <div class="form-row">
-                                                <div class="col-md-6">
-                                                    <div class="form-group">
-                                                        <label class="small mb-1" for="inputPassword">Password</label>
-                                                        <input class="form-control py-4" id="inputPassword" name="" type="password" placeholder="Enter password" />
-                                                    </div>
-                                                </div>
+                                            <div class="form-group">
+                                                <label class="small mb-1" for="inputPassword">Password</label>
+                                                <input class="form-control py-4" id="inputPassword" name="" type="password" placeholder="Enter password" />
                                             </div>
                                             <div class="form-group mt-4 mb-0"><button class="btn btn-primary btn-block" type="submit" name="submit">Create Account</button></div>
                                         </form>

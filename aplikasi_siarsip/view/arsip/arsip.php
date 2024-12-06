@@ -4,16 +4,16 @@ include __DIR__."/../../inc/sidebar.php";
 ?>
 <main>
     <div class="container-fluid">
-        <h1 class="mt-4">Arsip</h1>
+        <h1 class="mt-4">Daftar Arsip</h1>
         <ol class="breadcrumb mb-4">
             <li class="breadcrumb-item"><a href="index.html">Dashboard</a></li>
-            <li class="breadcrumb-item active">Arsip</li>
+            <li class="breadcrumb-item active">Daftar Arsip</li>
         </ol>
         <div class="card mb-4">
             <div class="card-header">
-                <i class="fas fa-table mr-1"></i>
-                DataTable Example
-                <a href="arsip_tambah.php" class="btn btn-primary float-right"><i class="fas fa-plus mr-2"></i>arsip Tambah</a>
+                <i class="fas fa-file mr-1"></i>
+                Daftar Arsip
+                <a href="arsip_tambah.php" class="btn btn-primary float-right"><i class="fas fa-plus mr-2"></i>Tambah Arsip</a>
             </div>
             <div class="card-body">
                 <div class="table-responsive">
@@ -26,7 +26,7 @@ include __DIR__."/../../inc/sidebar.php";
                                 <th>Kategori</th>
                                 <th>Petugas</th>
                                 <th>Keterangan</th>
-                                <th>Action</th>
+                                <th>Aksi</th>
                             </tr>
                         </thead>
                         <tfoot>
@@ -37,23 +37,17 @@ include __DIR__."/../../inc/sidebar.php";
                                 <th>Kategori</th>
                                 <th>Petugas</th>
                                 <th>Keterangan</th>
-                                <th>Action</th>
+                                <th>Aksi</th>
                             </tr>
                         </tfoot>
                         <tbody>
                             <tr>
                                 <td>1</td>
                                 <td><a href="<?php echo BASE_URL;?>/view/arsip/arsip_daftar.php"><u>05-12-2024</u></a></td>
-                                <td>
-                                    <strong>Kode</strong> : KD-11
-                                    <br>
-                                    <strong>Nama</strong> : File tafsir
-                                    <br>
-                                    <strong>Jenis</strong> : pdf
-                                </td>
-                                <td>Keterangan</td>
-                                <td>Keterangan</td>
-                                <td>Keterangan</td>
+                                <td>File tafsir </td>
+                                <td>Jurnal</td>
+                                <td>Dhika</td>
+                                <td>-</td>
                                 <td>
                                     <a href="arsip_edit.php" class="btn btn-secondary"><i class="fas fa-edit"></i></a>
                                     &nbsp;
