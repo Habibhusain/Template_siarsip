@@ -29,9 +29,26 @@
                     <div class="sb-sidenav-menu">
                         <div class="nav">
                             <div class="sb-sidenav-menu-heading">Core</div>
-                            <a class="nav-link" href="<?php echo BASE_URL;?>/pages/index.php">
+                            <a class="nav-link" href="<?php echo BASE_URL;?>/view/dashboard.php">
                                 <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
                                 Dashboard
+                            </a>
+                            <div class="sb-sidenav-menu-heading">Form</div>
+                            <a class="nav-link" href="<?php echo BASE_URL;?>/view/kategori/kategori.php">
+                                <div class="sb-nav-link-icon"><i class="fas fa-box"></i></div>
+                                Kategori
+                            </a>
+                            <a class="nav-link" href="<?php echo BASE_URL;?>/view/users/users.php">
+                                <div class="sb-nav-link-icon"><i class="fas fa-user"></i></div>
+                                User
+                            </a>
+                            <a class="nav-link" href="<?php echo BASE_URL;?>/view/petugas/petugas.php">
+                                <div class="sb-nav-link-icon"><i class="fas fa-user"></i></div>
+                                Petugas
+                            </a>
+                            <a class="nav-link" href="<?php echo BASE_URL;?>/view/arsip/arsip.php">
+                                <div class="sb-nav-link-icon"><i class="fas fa-file"></i></div>
+                                Arsip
                             </a>
                             <div class="sb-sidenav-menu-heading">Interface</div>
                             <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseLayouts" aria-expanded="false" aria-controls="collapseLayouts">
@@ -45,10 +62,27 @@
                                     <a class="nav-link" href="<?php echo BASE_URL;?>/pages/layout-sidenav-light.php">Light Sidenav</a>
                                 </nav>
                             </div>
-                            <a class="nav-link" href="<?php echo BASE_URL;?>/view/kategori/kategori.php">
-                                <div class="sb-nav-link-icon"><i class="fas fa-table"></i></div>
-                                Kategori
+                            <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseFormDaftar" aria-expanded="false" aria-controls="collapseFormDaftar">
+                                <div class="sb-nav-link-icon"><i class="fas fa-edit"></i></div>
+                                Form Daftar
+                                <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
                             </a>
+                            <div class="collapse" id="collapseFormDaftar" aria-labelledby="headingTwo" data-parent="#sidenavAccordion">
+                                <nav class="sb-sidenav-menu-nested nav accordion" id="sidenavAccordionPages">
+                                    <a class="nav-link collapsed" href="<?php echo BASE_URL;?>/view/kategori/kategori.php" >
+                                        Form Kategori
+                                    </a>
+                                    <a class="nav-link collapsed" href="<?php echo BASE_URL;?>/view/users/users.php">
+                                        Form Users
+                                    </a>
+                                    <a class="nav-link collapsed" href="<?php echo BASE_URL;?>/view/petugas/petugas.php">
+                                        Form Petugas
+                                    </a>
+                                    <a class="nav-link collapsed" href="<?php echo BASE_URL;?>/view/arsip/arsip.php">
+                                        Form Arsip
+                                    </a>
+                                </nav>
+                            </div>
                             <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsePages" aria-expanded="false" aria-controls="collapsePages">
                                 <div class="sb-nav-link-icon"><i class="fas fa-book-open"></i></div>
                                 Pages

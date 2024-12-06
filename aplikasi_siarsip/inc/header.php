@@ -1,5 +1,5 @@
 <?php
-$base_url = "http://localhost/project/kumpulan%20template/template_siarsip/php/";
+$base_url = "http://localhost/project/kumpulan%20template/template_siarsip/aplikasi_siarsip/";
 define('BASE_URL', $base_url);
 
 ?>
